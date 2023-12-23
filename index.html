@@ -5,34 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
+    <header class="header">
+        <nav class="header-naviggation">
+            <a class="header-logo" href="./index.html"> <span class="headder-logo-link">Web</span>Studio</a>
 
-            <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+            <ul class="header-menu-list">
+                <li class="header-menu-item"><a class="header-menu-link" href="">Studio</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="">Portfolio</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="">Contacts</a></li>
             </ul>
         </nav>
 
-        <address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <address class="headder-address">
+            <ul class="header-address-list">
+                <li class="header-address-item"><a class="header-aaddress-link"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-address-item"><a class="header-aaddress-link" href="tel:+110001111111">+11 (000)
+                        111-11-11</a></li>
             </ul>
         </address>
 
     </header>
 
-    <main>
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <button type="button" class="hero-buy-btn">Order Service</button>
         </section>
 
         <!-- Advantages -->
@@ -90,6 +95,42 @@
             </ul>
 
 
+        </section>
+
+        <section>
+            <h2>Our Portfolio</h2>
+            <ul>
+                <li>
+                    <img src="./images/banking.jpg" width="360" alt="Banking App">
+                    <h3>Banking App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/cashless.jpg" width="360" alt="Marketing">
+                    <h3>Cashless Payment</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/meditationapp.jpg" width="360" alt="Meditation App">
+                    <h3>Meditation App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/taxiservice.jpg" width="360" alt="Taxi Service">
+                    <h3>Taxi Service</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/screenillustration.jpg" width="360" alt="Screen Illustrations">
+                    <h3>Screen Illustrations</h3>
+                    <p>Design</p>
+                </li>
+                <li>
+                    <img src="./images/onlinecourses.jpg" width="360" alt="Online Courses">
+                    <h3>Online Courses</h3>
+                    <p>Marketing</p>
+                </li>
+            </ul>
         </section>
     </main>
 

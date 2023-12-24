@@ -77,6 +77,7 @@ header nav a span {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 /* Hero */
@@ -159,8 +160,6 @@ header nav a span {
   letter-spacing: 0.02em;
 }
 .team-list-img {
-  background: url(<path-to-image>),
-    lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
 }
 .team-list-text {
   color: var(--SLATE, #434455);
